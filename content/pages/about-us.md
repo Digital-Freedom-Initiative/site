@@ -1,4 +1,6 @@
 Title: About Us
+Date: 2016-02-06 17:00
+Category: About
 
 The Digital Freedom Initiative is dedicated to preserving and expanding the possibilities
 of freedom in the digital world and beyond.
