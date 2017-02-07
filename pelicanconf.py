@@ -27,8 +27,8 @@ THEME = "themes/notmyidea"
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/DFI_Cle'),
-         ('Facebook', 'https://www.facebook.com/Digital-Freedom-Initiative-918148028319839/'),)
+SOCIAL = (('Twitter', 'https://twitter.com/DFI_Cle'),)
+#         ('Facebook', 'https://www.facebook.com/Digital-Freedom-Initiative-918148028319839/'),)
 
 DEFAULT_PAGINATION = 10
 
