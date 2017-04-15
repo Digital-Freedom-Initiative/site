@@ -1,0 +1,22 @@
+version: '2'
+services:
+  pelican:
+    build: .
+    volumes:
+     - .:/pelican-site
+    command: 'pelican -r /pelican-site/content -o /pelican-site/output -s /pelican-site/pelicanconf.py'
+  nginx:
+    image: kyma/docker-nginx
+    volumes:
+      - ./output/:/var/www
+    ports:
+      - 80:80
+    depends_on:
+      - pelican
+  ngrok:
+    image: gtriggiano/ngrok-tunnel
+    environment:
+      - TARGET_HOST=nginx
+      - TARGET_PORT=80
+    depends_on:
+      - nginx
