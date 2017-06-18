@@ -9,7 +9,6 @@ Member of the Electronic Frontier Alliance
 
 contact@digitalfreedominitiative.org
 
-
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
