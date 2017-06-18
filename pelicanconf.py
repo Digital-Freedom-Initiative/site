@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'The DFI Team'
 SITENAME = u'Digital Freedom Initiative'
+SITESUBTITLE = u'Educate // Disseminate // Empower'
 SITEURL = ''
 
 PATH = 'content'
@@ -34,3 +35,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+CSS_OVERRIDE = 'theme/css/overides.css'
