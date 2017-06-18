@@ -10,6 +10,7 @@ Member of the Electronic Frontier Alliance
 contact@digitalfreedominitiative.org
 
 
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
 
@@ -59,6 +60,6 @@ LlpOIsRHa7RSppGKPaXmRHZtOWFldgbLWrc05x2IWMxvKhqJzyAinNZ3LKaE+9TN
 jSzYaoLVNcmCvLgKWnV1iCY/vaXqhQtcoT0PMquEbG/sASHuiLOV0bCb1yw878x6
 ApIYgnSGLy4Y8wY/6wP5KRK8LT+Kn0Ua+edmktRYQEl2NZxDcMAZ8nJmVz/5i93L
 EKHrAk6xr+TxC+JxK8ZDdobM6ZaXBip4guvV/tmpaK+2Cp0cWHHupFuIsSon3qF9
-b0tbTkSHbpWn3Y8oeR8An0xqGXVR4tpvRhp2K4mD2oIFeA8hJbExCiSZOtc=
-=/4GG
-<br/>-----END PGP PUBLIC KEY BLOCK-----
+b0tbTkSHbpWn3Y8oeR8An0xqGXVR4tpvRhp2K4mD2oIFeA8hJbExCiSZOtc==/4GG
+-----END PGP PUBLIC KEY BLOCK-----
+```
