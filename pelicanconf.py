@@ -37,3 +37,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 CSS_OVERRIDE = 'theme/css/overides.css'
+HEADER_COVER = 'images/logo-backgroud.jpg'

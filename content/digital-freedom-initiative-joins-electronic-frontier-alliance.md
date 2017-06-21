@@ -1,6 +1,7 @@
 Title: Digital Freedom Initiative Joins Electronic Frontier Alliance
 Date: 2017-02-05 14:30
-Category: News
+Header_Cover: images/eff.jpg
+
 
 We are proud to announce that the Digital Freedom Initiative is joining the Electronic Frontier Alliance.
 
@@ -10,17 +11,15 @@ community organizing, to developing and maintaining software and research projec
 Alliance all agree to the following principles.
 
 
-1. free expression: people should be able to speak their minds to whomever will listen.
+1. Free Expression: People should be able to speak their minds to whomever will listen.
 
-2. security: technology should be trustworthy and answer to its users.
+2. Security: Technology should be trustworthy and answer to its users.
 
-3. privacy: technology should allow private and anonymous speech, and allow users to set their own parameters about
-what to share with whom.
+3. Privacy: Technology should allow private and anonymous speech, and allow users to set their own parameters about what to share with whom.
 
-4. creativity: technology should promote progress by allowing people to build on the ideas, creations, and inventions
-of others.
+4. Creativity: Technology should promote progress by allowing people to build on the ideas, creations, and inventions of others.
 
-5. access to knowledge: curiosity should be rewarded, not stifled.
+5. Access to Knowledge: Curiosity should be rewarded, not stifled.
 
 We look forward to working with the EFF and the organizations within the Electronic Frontier Alliance as we attempt
 to preserve and expand freedom, creativity and transparency in the digital world and beyond.  

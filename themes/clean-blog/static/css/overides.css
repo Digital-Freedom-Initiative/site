@@ -1,6 +1,104 @@
+/*
+
+Yellow: #e6e524
+
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Open+Sans:300,300i,800');
+
+
+/* Global
+--------------------------------------*/
 
 h1, h2, h3, h4, h5, h6, a {
   font-family: "Droid Sans Mono", monospace;
   text-transform: uppercase;
+  color: #222;
+  letter-spacing: .1em;
 }
+
+.intro-header .page-heading h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  color: #222;
+}
+
+/* Twitter Icon */
+footer .fa-inverse {
+  color: #e6e524;
+}
+
+footer .fa-circle {
+  color: black;
+}
+
+footer {
+  background: #222;
+}
+
+
+/* Header
+--------------------------------------*/
+
+.page-heading span {
+  font-family: "Droid Sans Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.intro-header .page-heading span {
+  color: black;
+}
+
+/* Navbar
+--------------------------------------*/
+
+.navbar-custom .navbar-brand {
+  color: #222;
+}
+
+.navbar-custom .nav li a {
+  letter-spacing: 0.2em;
+  font-size: 10pt;
+}
+
+.navbar-custom .nav li a {
+  color: black;
+}
+
+pre {
+  font-size: 12pt;
+}
+
+/* Long Format Article
+--------------------------------------*/
+.section-head {
+  background: #e6e524;
+  padding: 1px 10px 3px 10px;
+}
+
+.note {
+  color: white;
+  background: #222;
+  padding: 1% 2%;
+  margin-bottom: 70px;
+}
+
+.note h3 {
+  color: white;
+}
+
+.article-nav a {
+  display: block;
+  color: grey;
+}
+
+.article-nav a:hover,
+.article-nav a:focus {
+  text-decoration: underline;
+  text-decoration-color: #e6e524;
+}
+*/
+
+
+
