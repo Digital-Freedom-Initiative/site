@@ -2,6 +2,7 @@ Title: A Primer on Surveillance and Intelligence Gathering in the City of Clevel
 Date: 2017-6-20 6:30
 Category: Report
 Header_Cover: images/surveillance-report.jpg
+Summary: A report produced by Digital Freedom Initiative outlining various surveillance and intelligence gathering techniques being used in Cleveland.
 
 <a href="images/surveillance-report.pdf">Download a PDF of the Report</a>
 

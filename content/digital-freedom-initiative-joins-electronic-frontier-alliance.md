@@ -1,6 +1,7 @@
 Title: Digital Freedom Initiative Joins Electronic Frontier Alliance
 Date: 2017-02-05 14:30
 Header_Cover: images/eff.jpg
+Summary: The Digital Freedom Initiative's announcement of our joining with the Electronic Frontier Alliance.
 
 
 We are proud to announce that the Digital Freedom Initiative is joining the Electronic Frontier Alliance.

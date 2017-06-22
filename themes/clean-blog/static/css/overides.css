@@ -61,8 +61,21 @@ a:hover {
   color: #e6e524;
 }
 
-.post-preview > .post-meta > a:focus {
+.post-preview > .post-meta > a:hover {
   color: #e6e524;
+}
+
+
+.intro-header .post-heading .meta {
+  color: white;
+  font-family: 'Open Sans',Lora,'Times New Roman',serif;
+  background-color: #222;
+  height: 30px;
+  padding: 3px 10px;
+}
+
+.intro-header .post-heading .meta a {
+  color: #white;
 }
 
 /* Header
@@ -76,6 +89,10 @@ a:hover {
 
 .intro-header .page-heading span {
   color: black;
+}
+
+hr.small {
+  display: none;
 }
 
 /* Navbar
@@ -123,6 +140,11 @@ pre {
 
 li.active {
   background: #222;
+}
+
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .nav li a:hover {
+  color: #e6e524;;
 }
 
 /* About Page
