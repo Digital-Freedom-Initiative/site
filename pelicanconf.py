@@ -38,3 +38,4 @@ DEFAULT_PAGINATION = 10
 
 CSS_OVERRIDE = 'theme/css/overides.css'
 HEADER_COVER = 'images/logo-backgroud.jpg'
+FOOTER_INCLUDE = 'custom_footer.html'

@@ -1,16 +1,27 @@
 Title: About Us
 Date: 2016-02-06 17:00
 Category: About
-Header_Cover: ../images/logo-backgroud.jpg
+Header_Cover: ../images/about-cover.jpg
 
-The Digital Freedom Initiative is a Cleveland based organization dedicated to preserving and expanding freedom,
-creativity and transparency in the digital world and beyond.  
 
-Member of the Electronic Frontier Alliance
+<div class="text-center">
+<h3>Mission:</h3>
+<p>The Digital Freedom Initiative is a Cleveland based organization dedicated to preserving and expanding freedom,
+creativity and transparency in the digital world and beyond.</p>  
 
-contact@digitalfreedominitiative.org
+<div class="row" id="about-logo">
+  <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+    <img src="../images/full-color-triangle.png">
+  </div>
+</div>
 
-<button id="pgp-btn">View PGP Public Key Block</button>
+<p>Member of the Electronic Frontier Alliance</p>
+
+<p>contact@digitalfreedominitiative.org</p>
+
+</div>
+
+<button id="pgp-btn" class="btn btn-center">View PGP Public Key Block</button>
 <div id="pgp-block">
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -112,7 +112,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+              <!-- Logo Replace Test -->
+                <a class="navbar-brand" href="{{ SITEURL }}/">Digital_Freedom_Initative</a>
+                <!--<a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>-->  
+              
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -185,6 +188,9 @@
 
     <!-- jQuery -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
+  
+    <!-- jQuery UI -->
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui.min.js"></script> 
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
@@ -194,11 +200,8 @@
         <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/clean-blog.min.js"></script>
     {% endif %}
   
-    <!-- jQuery UI -->
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui.min.js"></script>
-  
     <!-- Custom Scripts -->
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script> 
 
     {% include 'analytics.html' %}
     {% include 'disqus_script.html' %}

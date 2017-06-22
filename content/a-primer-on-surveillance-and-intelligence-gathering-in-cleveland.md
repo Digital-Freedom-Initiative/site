@@ -1,16 +1,19 @@
 Title: A Primer on Surveillance and Intelligence Gathering in the City of Cleveland
 Date: 2017-6-20 6:30
-Category: News
+Category: Report
 Header_Cover: images/surveillance-report.jpg
 
+<a href="images/surveillance-report.pdf">Download a PDF of the Report</a>
+
+<h4 class="contents">Contents:</h4>
 <nav class="article-nav">
-  <a href="#" id="button1">1. Introduction</a>
-  <a href="#" id="button2">2. Passive Surveillance</a>
-  <a href="#" id="button3">3. Surveillance Cameras</a>
-  <a href="#" id="button4">4. Physical Proximity Surveillance</a>
-  <a href="#" id="button5">5. IMSI Catchers (Stingrays)</a>
-  <a href="#" id="button6">6. Digital Device Intrusion</a>
-  <a href="#" id="button7">7. Conclusion</a>
+  <a href="#part1" class="article-nav-link">1. Introduction</a><br>
+  <a href="#part2" class="article-nav-link">2. Passive Surveillance</a><br>
+  <a href="#part3" class="article-nav-link">3. Surveillance Cameras</a><br>
+  <a href="#part4" class="article-nav-link">4. Physical Proximity Surveillance</a><br>
+  <a href="#part5" class="article-nav-link">5. IMSI Catchers (Stingrays)</a><br>
+  <a href="#part6" class="article-nav-link">6. Digital Device Intrusion</a><br>
+  <a href="#part7" class="article-nav-link">7. Conclusion</a><br>
 </nav>
 
 <h3 id="summary" class="mt-5">Executive Summary</h3>
@@ -271,3 +274,6 @@ In this primer we have been able to just touch on the basic elements of surveill
 
 In light of this expansion of surveillance into everyday life it is important for anyone that is active in any activity that may be deemed threatening by the police to think clearly about the ways that they can protect and secure their ability to speak and act. Information security is never a process of finding the perfect solution to all forms of intrusion and surveillance. Technologies change, and so do the methods used to counteract these technologies. To maintain safety in the face of a growing surveillance apparatus means to be informed about what is going on around you, to research the ways that others have dealt with these problems, and to make decisions about how one is going to communicate based on this understanding. With the security state expanding every day the considerations around communication, and communication itself, has become something central to political action and our everyday lives, and we have to approach it as such. 
 
+<a href="#" class="back-to-top" style="display: block;">
+  <span class="fa fa-arrow-up"></span>
+</a>

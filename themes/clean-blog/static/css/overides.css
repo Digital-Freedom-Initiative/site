@@ -17,25 +17,53 @@ h1, h2, h3, h4, h5, h6, a {
   letter-spacing: .1em;
 }
 
+
 .intro-header .page-heading h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   letter-spacing: 0.2em;
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .intro-header .page-heading h1 {
+    font-size: 2em;
+  }
+}
+
+.post-title:hover {
+  color: #e6e524;
+  text-decoration: underline;
+}
+
+.intro-header .page-heading .subheading {
+  font-weight: medium;
   color: #222;
 }
 
 /* Twitter Icon */
 footer .fa-inverse {
-  color: #e6e524;
+  color: #222;
 }
 
 footer .fa-circle {
-  color: black;
+  color: #e6e524;
+}
+
+footer span:hover {
+  color: white;
 }
 
 footer {
   background: #222;
 }
 
+a:hover {
+  color: #e6e524;
+}
+
+.post-preview > .post-meta > a:focus {
+  color: #e6e524;
+}
 
 /* Header
 --------------------------------------*/
@@ -63,33 +91,81 @@ footer {
 }
 
 .navbar-custom .nav li a {
-  color: black;
+  color: #222;
 }
 
 pre {
   font-size: 12pt;
+  background: #444;
 }
+
+#logo {
+  display: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: black;
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom .navbar-brand {
+  font-size: .75em;
+  display: inline;
+  } 
+  h1 {
+    font-size: 1em;
+  }
+}
+
+li.active {
+  background: #222;
+}
+
+/* About Page
+--------------------------------------*/
+
+#pgp-btn {
+  font-family: "Droid Sans Mono", monospace;
+  display: block;
+  width: 300px;
+  margin: 50px auto 0;
+}
+
+#pgp-btn:hover {
+  background: #e6e524;
+}
+
+#about-logo {
+  margin: 50px 0;
+}
+
 
 /* Long Format Article
 --------------------------------------*/
+.contents {
+  margin-top: 50px;
+}
+
+.article-nav {
+  margin-bottom: 50px;
+}
+
 .section-head {
   background: #e6e524;
   padding: 1px 10px 3px 10px;
 }
 
 .note {
-  color: white;
-  background: #222;
+  background: #EEE;
   padding: 1% 2%;
   margin-bottom: 70px;
 }
 
-.note h3 {
-  color: white;
-}
-
 .article-nav a {
-  display: block;
   color: grey;
 }
 
@@ -98,7 +174,45 @@ pre {
   text-decoration: underline;
   text-decoration-color: #e6e524;
 }
-*/
+
+.section-head {
+  margin-top: 75px;
+}
+
+.section-head > h2 {
+  margin: 10px 0 0;
+
+}
+
+.section-head + h4 {
+  margin-top: 50px;
+}
+
+/*Back to Top Button*/
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #222;
+  font-size: 2em;
+  background-color: #e6e524;
+  text-align: center;
+  height: 60px;
+  padding-left: 3px;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  color: white;
+}
+
 
 
 
