@@ -24,10 +24,20 @@ h1, h2, h3, h4, h5, h6, a {
   color: #222;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 323px) and (max-width: 768px) {
   .intro-header .page-heading h1 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
+  .intro-header .page-heading .subheading {
+    font-size: 1em;
+  }  
+}
+
+@media (max-width: 322px) {
+  .intro-header .post-heading h1,
+  .intro-header .page-heading h1 {
+  font-size: 1.5em;
+  } 
 }
 
 .post-title:hover {
@@ -36,7 +46,6 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .intro-header .page-heading .subheading {
-  font-weight: medium;
   color: #222;
 }
 
@@ -70,7 +79,7 @@ a:hover {
   color: white;
   font-family: 'Open Sans',Lora,'Times New Roman',serif;
   background-color: #222;
-  height: 30px;
+  height: auto;
   padding: 3px 10px;
 }
 
@@ -128,7 +137,7 @@ pre {
   border-radius: 0;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 323px) and (max-width: 768px) {
   .navbar-custom .navbar-brand {
   font-size: .75em;
   display: inline;
@@ -136,6 +145,12 @@ pre {
   h1 {
     font-size: 1em;
   }
+}
+
+@media (max-width: 322px) {
+  .navbar-custom .navbar-brand {
+  font-size: .6em;
+  } 
 }
 
 li.active {
@@ -161,9 +176,23 @@ li.active {
   background: #e6e524;
 }
 
+@media (max-width: 322px) {
+  #pgp-btn {
+    width: 90%;
+  }
+  #pgp-btn span {
+    display: none;
+  }
+  #email {
+    font-size: .75em;
+  }
+}
+
 #about-logo {
   margin: 50px 0;
 }
+
+
 
 
 /* Long Format Article

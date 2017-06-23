@@ -16,7 +16,7 @@ $(function() {
   $("#pgp-block pre").hide(0);
   $("#pgp-btn").click(function() {
     $("#pgp-block pre").toggle("blind", 400, "swing");
-    $(this).text(function(i, v){return v === 'Hide PGP Public Key Block' ? 'View PGP Public Key Block' : 'Hide PGP Public Key Block' });
+    $(this).html(function(i, v){return v === 'Hide PGP Public Key <span>Block</span>' ? 'View PGP Public Key <span>Block</span>' : 'Hide PGP Public Key <span>Block</span>' });
   });
   
   //---------- Back to Top Button -----------//

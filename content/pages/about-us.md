@@ -17,11 +17,11 @@ creativity and transparency in the digital world and beyond.</p>
 
 <p>Member of the Electronic Frontier Alliance</p>
 
-<p>contact@digitalfreedominitiative.org</p>
+<p id="email">contact@digitalfreedominitiative.org</p>
 
 </div>
 
-<button id="pgp-btn" class="btn btn-center">View PGP Public Key Block</button>
+<button id="pgp-btn" class="btn btn-center">View PGP Public Key <span>Block</span></button>
 <div id="pgp-block">
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
