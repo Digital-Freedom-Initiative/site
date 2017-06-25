@@ -114,8 +114,8 @@
                 </button>
               <!-- Logo Replace Test -->
                 <a class="navbar-brand" href="{{ SITEURL }}/">Digital_Freedom_Initative</a>
-                <!--<a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>-->  
-              
+                <!--<a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>-->
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -166,7 +166,7 @@
                     {% if SOCIAL %}
                         {% for name,link in SOCIAL %}
                             <li>
-                                <a href="{{ link }}">
+                                <a href="{{ link }}" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-{{ name|lower }} fa-stack-1x fa-inverse"></i>
@@ -188,9 +188,9 @@
 
     <!-- jQuery -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
-  
+
     <!-- jQuery UI -->
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui.min.js"></script> 
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
@@ -199,9 +199,9 @@
         <!-- Custom Theme JavaScript -->
         <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/clean-blog.min.js"></script>
     {% endif %}
-  
+
     <!-- Custom Scripts -->
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script> 
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script>
 
     {% include 'analytics.html' %}
     {% include 'disqus_script.html' %}

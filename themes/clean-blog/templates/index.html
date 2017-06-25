@@ -23,7 +23,7 @@
                             <ul class="list-inline text-center">
                             {% for name,link in SOCIAL %}
                                 <li>
-                                    <a href="{{ link }}">
+                                    <a href="{{ link }}" target="_blank">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-{{ name|lower }} fa-stack-1x fa-inverse"></i>
                                         </span>
@@ -70,4 +70,3 @@
 
     {% include "pagination.html" %}
 {% endblock content %}
-
